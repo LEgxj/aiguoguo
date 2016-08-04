@@ -3,7 +3,15 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eff2f6">
+    <ImageView
+        android:id="@+id/image_test"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/ll_login"/>
     <LinearLayout
+        android:id="@+id/ll_login"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
