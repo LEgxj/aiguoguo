@@ -35,30 +35,33 @@
                 android:id="@+id/edit_password"
                 android:background="@null"/>
         </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorwhite">
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:paddingLeft="10dp"
+                android:hint="@string/register_sure_password"
+                android:id="@+id/edit_sure_password"
+                android:background="@null"/>
+        </RelativeLayout>
 
         <LinearLayout
             android:layout_marginTop="15dp"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            <Button
-                android:id="@+id/btn_register"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:background="@color/colorwhite"
-                android:onClick="register"
-                android:text="@string/login_register"
-                android:textSize="15sp"
-                android:textColor="@color/colorblack"/>
+
             <Button
                 android:id="@+id/btn_login"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="50dp"
-                android:onClick="login"
-                android:text="@string/login_login"
+                android:onClick="register"
+                android:text="@string/login_register"
                 android:background="@color/appcolor"
                 android:layout_margin="10dp"
                 android:textSize="15sp"
